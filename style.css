@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+  
+  }
+
+  .container {
+     text-align: center;
+     padding: 20px;
+     z-index: 2;
+}
+ 
+  .fundoOpacidade {
+     z-index: 0;
+     background-color: rgba(0,0,0,0.7);
+     height: 410px;
+     width: 450px;
+     align-content: center;    
+}  
+
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    z-index: 2;
+    position: relative; top: 2px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+
+  }
+  
+  
+  #listaFilmes img {
+    margin: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #DA1E26;
+    font-weight:bold; 
+    padding: 15px 20px;
+    font-size: 16px;
+    borde-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .form-wrapper button:hover {
+    opacity:0.8;
+  }
+
+.ajuda {
+  text-align: left;
+  color: gray;
+  position: relative; top: -8px; right: -290px;
+}
+
+.ajuda:hover {
+  text-decoration: underline;
+}
+
+.logins {
+  color: white;
+  font-family: 'monospace', sans-serif, cursive;
+  font-size: 15px;
+}
+
+.logo-google {
+   max-width: 45px;
+   max-height: 45px;
+   width: auto;
+   height: auto;
+   position: relative; top: -6px; left: -90px;
+}
+
+.logo-facebook {
+   max-width: 40px;
+   max-height: 40px;
+   width: auto;
+   height: auto;
+   position: relative; top: -53px; left: -1px;
+}
+
+.logo-twitter {
+  max-width: 55px;
+   max-height: 55px;
+   width: auto;
+   height: auto;
+   position: relative; top: -105px; left: 90px;
+}
+
+.trailler {
+  position: relative; top: -500px; right: -500px;
+}
